@@ -1,0 +1,13 @@
+2018-03-19 10:42:29,639 WARN  [SoapUI] Missing folder [C:\Users\T924192\eclipse-workspace\soap\ext] for external libraries
+2018-03-19 10:42:29,944 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\T924192\soapui-settings.xml]
+2018-03-19 10:42:31,471 INFO  [DefaultSoapUICore] Settings saved to [C:\Users\T924192\soapui-settings.xml]
+2018-03-19 10:42:31,690 INFO  [WsdlProject] Loaded project from [file:/C:/Users/T924192/Documents/Ziwei-s-First-Card-and-Group-Admin-Project-soapui-project.xml]
+2018-03-19 10:42:32,001 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Ziwei's First Card and Group Admin Project]
+2018-03-19 10:42:32,003 INFO  [SoapUITestCaseRunner] Running Project [Ziwei's First Card and Group Admin Project], runType = SEQUENTIAL
+2018-03-19 10:42:32,017 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 1]
+2018-03-19 10:42:32,023 INFO  [SoapUITestCaseRunner] running step [Card - Ziwei's Card]
+2018-03-19 10:42:33,287 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2018-03-19 10:42:33,288 INFO  [SoapUITestCaseRunner] running step [Card - DELETE Ziwei's Card]
+2018-03-19 10:42:33,641 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2018-03-19 10:42:33,641 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 1], time taken: 1607ms, status: FINISHED
+2018-03-19 10:42:33,642 INFO  [SoapUITestCaseRunner] Project [Ziwei's First Card and Group Admin Project] finished with status [FINISHED] in 1634ms

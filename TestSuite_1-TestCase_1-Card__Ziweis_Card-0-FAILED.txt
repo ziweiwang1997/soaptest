@@ -1,0 +1,73 @@
+Status: FAILED
+Time Taken: 21156
+Size: 0
+Timestamp: Mon Mar 19 10:40:48 EDT 2018
+TestStep: Card - Ziwei's Card
+
+----------------- Messages ------------------------------
+org.apache.http.conn.HttpHostConnectException: Connection to http://199.85.3.199:1883 refused
+
+----------------- Properties ------------------------------
+Endpoint: http://199.85.3.199:1883/adminman/PddGamaAdmin/services/admin
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:cpq_tns_Card">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <urn:Card>
+         <comm_elig_msg_header>
+            <mh_reply_code>0</mh_reply_code>
+            <mh_req_seq_no>101</mh_req_seq_no>
+            <mh_op_code_query_grp>
+               <mh_oc_query_type_grp>
+                  <mh_oc_table_id>ELIG</mh_oc_table_id>
+                  <mh_oc_sub_query_id>ADMN</mh_oc_sub_query_id>
+               </mh_oc_query_type_grp>
+               <mh_oc_query_req>9</mh_oc_query_req>
+               <mh_oc_query_qual>0</mh_oc_query_qual>
+            </mh_op_code_query_grp>
+            <mh_return_msg/>
+            <mh_version_ind>1.0.0</mh_version_ind>
+         </comm_elig_msg_header>
+         <!--1 or more repetitions:-->
+         <elig_req_row_data>
+            <cel_req_row_data>
+               <cel_rec_key>
+                  <cel_client_code>10</cel_client_code>
+                  <cel_cert_no>000000000000088</cel_cert_no>
+                  <cel_group_no>880008</cel_group_no>
+                  <cel_relationship>1</cel_relationship>
+                  <cel_birth_date>19900101</cel_birth_date>
+                  <cel_issue_no>1</cel_issue_no>
+                  <cel_first_name>ZIWEI</cel_first_name>
+               </cel_rec_key>
+               <cel_numeric_fields>
+                  <cel_effective_date>20170101</cel_effective_date>
+                  <cel_terminate_date>99991231</cel_terminate_date>
+               </cel_numeric_fields>
+               <cel_alpha_fields>
+                  <cel_div_no>000001</cel_div_no>
+                  <cel_unit_no>0001</cel_unit_no>
+                  <cel_prov>ON</cel_prov>
+                  <cel_surname>WANG</cel_surname>
+                  <cel_status>A</cel_status>
+                  <!--Zero or more repetitions:-->
+                  <cel_flag_lst>S</cel_flag_lst>
+                  <cel_flag_lst>S</cel_flag_lst>
+                  <cel_flag_lst>Y</cel_flag_lst>
+                  <cel_flag_lst>Y</cel_flag_lst>
+                  <cel_flag_lst>Y</cel_flag_lst>
+                  <cel_flag_lst>N</cel_flag_lst>
+                  <cel_flag_lst></cel_flag_lst>
+                  <cel_flag_lst>N</cel_flag_lst>
+                  <cel_flag_lst>N</cel_flag_lst>
+               </cel_alpha_fields>
+            </cel_req_row_data>
+         </elig_req_row_data>
+      </urn:Card>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+- missing response / garbage collected -
